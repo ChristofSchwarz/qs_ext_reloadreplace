@@ -24,9 +24,11 @@ Admin rights within the extension:
 ## Reload Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
 
-| ddd | ddd |
+| Setting | Explanation |
 | --- | --- |
-| ddd | ddd |
+| Button Label | Text to be shown in the button, can be a formula |
+| Hide within published apps | If checked, the button will never be visible if placed within a published app |
+| Conditional Show | You can provide any logic that makes the Reload button conditional, for example you can provide a list of users that will see the button, while others don't |
 
 ## Replace Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
