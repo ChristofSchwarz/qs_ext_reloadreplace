@@ -16,7 +16,7 @@ Do not forget to set the "Load balancing node" and - after you saved the new vir
 
 The settings (1), (2) and (3) from above settings are needed as settings in the extension:
 
-
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/extsettings1.png "screenshot")
 
 
 ## Reload Button
