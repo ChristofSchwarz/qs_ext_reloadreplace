@@ -28,7 +28,7 @@ Both buttons (Reload and Replace) work independently, only check the button whic
 to finish reload. You may need to be patient if the load script takes a longer time to finish, eventually you will see the data 
 refresh. Do not press the button again to avoid double-load.
 
-**Note** Since the reload is pushed to the backend (QRS API), this also works for the published apps and does not need access to the
+**Note** Since the reload is pushed to the backend (QRS API), this also works for published apps and does not need access to the
 Load Script or Data Manager.
 
 | Setting | Explanation |
