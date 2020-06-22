@@ -7,8 +7,13 @@ Simple extension, that
 ## Virtual Proxy Setup
 
 It is necessary to setup a virtual proxy first, so that the extension can authorize against it. 
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/vproxy_ext.png "screenshot")
 
-## Data Connection to the App Folder
+## Reload Button
+
+## Replace Button
+
+### Data Connection to the App Folder
 
 If you plan to use the option *Keep data + script of target app* you need to create and define a data connection, that points to the 
 Qlik Sense shared app folder. 
