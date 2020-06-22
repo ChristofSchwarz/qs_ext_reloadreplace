@@ -35,7 +35,7 @@ Load Script or Data Manager.
 | --- | --- |
 | Button Label | Text to be shown in the button, can be a formula |
 | Hide within published apps | If checked, the button will never be visible if placed within a published app |
-| Conditional Show | You can provide any logic that makes the Reload button conditional, for example you can provide a list of users that will see the button, while others don't, for example `=WildMatch(OSUser(), '*QMI-QS-SN*vagrant', '*QMI-QS-SN*csw')` |
+| Conditional Show | You can provide any logic that makes the Reload button conditional, for example you can provide a list of users that will see the button, while others don't, with this formula `=WildMatch(OSUser(), '*QMI-QS-SN*vagrant', '*QMI-QS-SN*csw')` (users are provided in the syntax asterisk-UserDirectory-asterisk-UserId) |
 | Color Pickers | settings for the button's text and background color |
 
 So this is quite powerful, you can give certain users the possiblity to run an ad-hoc reload of a given published app.
