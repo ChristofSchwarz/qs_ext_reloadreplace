@@ -22,8 +22,14 @@ Admin rights within the extension:
 
 
 ## Reload Button
+Both buttons (Reload and Replace) work independently, only check the button which you need.
+
+| ddd | ddd |
++ --- + --- +
+| ddd | ddd |
 
 ## Replace Button
+Both buttons (Reload and Replace) work independently, only check the button which you need.
 
 ### Data Connection to the App Folder
 
