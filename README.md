@@ -6,9 +6,13 @@ Simple extension, that
  
 ## Virtual Proxy Setup
 
-It is necessary to setup a virtual proxy first, so that the extension can authorize against it. 
+Since both buttons interact with Qlik's QRS API, it is necessary to setup a virtual proxy first, so that the extension can 
+authorize against it. It is using Header Authentication. Log in to your server as Root Admin and go to the QMC page
+`/qmc/virtualproxies`. Set up the following:
 
 ![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/vproxyext.png "screenshot")
+
+
 
 ## Reload Button
 
