@@ -12,6 +12,11 @@ authorize against it. It is using Header Authentication. Log in to your server a
 
 ![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/vproxyext.png "screenshot")
 
+Do not forget to set the "Load balancing node" and - after you saved the new virtual proxy - to link it to the associated Central Proxy. 
+
+The settings (1), (2) and (3) from above settings are needed as settings in the extension:
+
+
 
 
 ## Reload Button
