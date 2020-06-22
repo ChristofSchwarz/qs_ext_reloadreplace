@@ -11,10 +11,18 @@ It is necessary to setup a virtual proxy first, so that the extension can author
 ## Data Connection to the App Folder
 
 If you plan to use the option *Keep data + script of target app* you need to create and define a data connection, that points to the 
-Qlik Sense shared app folder. This is needed, because the local app will be BINARY loaded with the data model of the target app 
+Qlik Sense shared app folder. 
+
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/cbkeepdata.png "screenshot")
+
+Create a data connection in the load editor. Remember the exact title of the data connection (this includes your user id in brackets)
+
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/dataconn.png "screenshot")
+
+Note: This data connection is needed, because the source app will be BINARY loaded with the data model of the target app 
 before replacing its design+data. After this is done, the source app's data will be reverted to the data you had when you clicked 
 the button. 
 
-![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/cbkeepdata.png "screenshot")
+
 
 
