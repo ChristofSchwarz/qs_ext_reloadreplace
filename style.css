@@ -1,0 +1,21 @@
+.qv-object-ReplaceReloadApp div.qv-object-content-container {
+	overflow: auto;
+}
+.qv-object-ReplaceReloadApp td,
+.qv-object-ReplaceReloadApp th {
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}
+.qv-object-ReplaceReloadApp td.numeric {
+	text-align: right;
+}
+.qv-object-ReplaceReloadApp button {
+	width: 100%;
+}
