@@ -25,7 +25,7 @@ Admin rights within the extension:
 Both buttons (Reload and Replace) work independently, only check the button which you need.
 
 | ddd | ddd |
-+ --- + --- +
+| --- | --- |
 | ddd | ddd |
 
 ## Replace Button
