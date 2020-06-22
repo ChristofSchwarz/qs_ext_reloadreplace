@@ -7,7 +7,8 @@ Simple extension, that
 ## Virtual Proxy Setup
 
 It is necessary to setup a virtual proxy first, so that the extension can authorize against it. 
-![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/vproxy_ext.png "screenshot")
+
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/vproxyext.png "screenshot")
 
 ## Reload Button
 
