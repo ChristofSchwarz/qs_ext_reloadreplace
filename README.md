@@ -43,6 +43,12 @@ So this is quite powerful, you can give certain users the possiblity to run an a
 ## Replace Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
 
+**Function:** The button replaces the design of a specified target app with the current app's design and data (the app where the 
+extension is in). Optionally, which takes some more steps in the back, the button can refesh _just_ the design but keep the data 
+and the load script of target app.
+
+
+
 ### Data Connection to the App Folder
 
 If you plan to use the option *Keep data + script of target app* you need to create and define a data connection, that points to the 
