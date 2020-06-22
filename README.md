@@ -14,7 +14,9 @@ authorize against it. It is using Header Authentication. Log in to your server a
 
 Do not forget to set the "Load balancing node" and - after you saved the new virtual proxy - to link it to the associated Central Proxy. 
 
-The settings (1), (2) and (3) from above settings are needed as settings in the extension:
+The settings (1) and (2) from above settings are needed as settings in the extension. The parameter (3) above defines how to format 
+the user id in the extension parameter (3) below, in my case UserDirectory + 3 colons + UserId. Provide a user who has Content 
+Admin rights within the extension:
 
 ![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/extsettings1.png "screenshot")
 
