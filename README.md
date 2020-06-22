@@ -1,4 +1,4 @@
-# Qlik Sense Extension to Reload and Replace a published app
+# Qlik Sense Extension: Reload and Replace a published app
 
 Simple extension, that 
  * allows a developer to refresh an already published app with a new design from a copy of this app (standard process)
