@@ -15,6 +15,6 @@ Qlik Sense shared app folder. This is needed, because the local app will be BINA
 before replacing its design+data. After this is done, the source app's data will be reverted to the data you had when you clicked 
 the button. 
 
-![screenshot](https://github.com/ChristofSchwarz/pics/cbkeepdata.png "screenshot")
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/cbkeepdata.png "screenshot")
 
 
