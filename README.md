@@ -24,11 +24,19 @@ Admin rights within the extension:
 ## Reload Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
 
+**Function:** The button triggers a server-side ad-hoc task (run-once) which starts reloading the app. It does NOT wait for the app 
+to finish reload. You may need to be patient if the load script takes a longer time to finish, eventually you will see the data 
+refresh. Do not press the button again to avoid double-load.
+
+**Note** Since the reload is pushed to the backend (QRS API), this also works for the published apps and does not need access to the
+Load Script or Data Manager.
+
 | Setting | Explanation |
 | --- | --- |
 | Button Label | Text to be shown in the button, can be a formula |
 | Hide within published apps | If checked, the button will never be visible if placed within a published app |
 | Conditional Show | You can provide any logic that makes the Reload button conditional, for example you can provide a list of users that will see the button, while others don't |
+| Color Pickers | settings for the button's text and background color |
 
 ## Replace Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
