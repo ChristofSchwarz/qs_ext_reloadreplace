@@ -31,6 +31,7 @@ refresh. Do not press the button again to avoid double-load.
 **Note** Since the reload is pushed to the backend (QRS API), this also works for published apps and does not need access to the
 Load Script or Data Manager.
 
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/extbuttonsettg1.png "screenshot")
 
 | Setting | Explanation |
 | --- | --- |
@@ -49,6 +50,8 @@ extension is in). Optionally, which takes some more steps in the back, the butto
 and the load script of target app.
 
 Note, the button will be hidden in the target app, as the intention is to refresh the app one-way from a copy. The users of the target app should not see this.
+
+![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/extbuttonsettg2.png "screenshot")
 
 | Setting | Explanation |
 | --- | --- |
