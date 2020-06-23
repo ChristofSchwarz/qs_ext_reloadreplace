@@ -31,14 +31,15 @@ refresh. Do not press the button again to avoid double-load.
 **Note** Since the reload is pushed to the backend (QRS API), this also works for published apps and does not need access to the
 Load Script or Data Manager.
 
+
 | Setting | Explanation |
 | --- | --- |
 | Button Label | Text to be shown in the button, can be a formula |
 | Hide within published apps | If checked, the button will never be visible if placed within a published app |
-| Conditional Show | You can provide any logic that makes the Reload button conditional, for example you can provide a list of users that will see the button, while others don't, with this formula `=WildMatch(OSUser(), '*QMI-QS-SN*vagrant', '*QMI-QS-SN*csw')` (users are provided in the syntax asterisk-UserDirectory-asterisk-UserId) |
+| Conditional Show* | You can provide any logic that makes the Reload button conditional, for example you can provide a list of users that will see the button, while others don't, with this formula `=WildMatch(OSUser(), '*QMI-QS-SN*vagrant', '*QMI-QS-SN*csw')` (users are provided in the syntax asterisk-UserDirectory-asterisk-UserId) |
 | Color Pickers | settings for the button's text and background color |
 
-So this is quite powerful, you can give certain users the possiblity to run an ad-hoc reload of a given published app.
+*So this is quite powerful, you can give certain users the possiblity to run an ad-hoc reload of a given published app.
 
 ## Replace Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
@@ -47,7 +48,15 @@ Both buttons (Reload and Replace) work independently, only check the button whic
 extension is in). Optionally, which takes some more steps in the back, the button can refesh _just_ the design but keep the data 
 and the load script of target app.
 
+Note, the button will be hidden in the target app, as the intention is to refresh the app one-way from a copy. The users of the target app should not see this.
 
+| Setting | Explanation |
+| --- | --- |
+| Button Label | Text to be shown in the button, can be a formula |
+| Target app id | GUID of the app which will be targeted to overwrite (refresh) |
+| Keep data + script| This allows to refresh the entire design of the target app but doesn't touch the data nor the script of the target app* |
+| Data Connection | If you turn on "Keep data + script" a could of extra steps are done under the hood, the script will temporarily be set to BINARY load the data of the target app. See below.
+| Color Pickers | settings for the button's text and background color |
 
 ### Data Connection to the App Folder
 
