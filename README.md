@@ -22,6 +22,11 @@ Admin rights within the extension:
 
 ![screenshot](https://raw.githubusercontent.com/ChristofSchwarz/pics/master/extsettings1.png "screenshot")
 
+**Attention** You also need 
+ - to add the hostname, under which the extension talks to the Sense server, to the Whitelist (show under 
+"Advanced)". 
+ - Also make sure in the QMC under `/qmc/users`, that the user which you are going to specify in the extension, has sufficient rights to make QRS calls. I 
+recommend to authorize that user with "ContentAdmin" role.
 
 ## Reload Button
 Both buttons (Reload and Replace) work independently, only check the button which you need.
