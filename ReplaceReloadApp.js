@@ -201,14 +201,14 @@ define( ["qlik", "jquery", "text!./style.css"], function ( qlik, $, cssContent) 
 						type: "object",
 						//dualOutput: true,
 						defaultValue: "#333333",
-						show: function(data) { return data.pCBreload == true }		
+						show: function(data) { return data.pCBreplace == true }		
 					},{
 						label: "Background color",
 						component: "color-picker",
 						ref: "pBgColor2",
 						type: "object",
 						defaultValue: "#ffffff",
-						show: function(data) { return data.pCBreload == true }		
+						show: function(data) { return data.pCBreplace == true }		
 					}
 				]
 			},
