@@ -3,7 +3,9 @@
 Simple extension, that 
  * allows a developer to refresh an already published app with a new design from a copy of this app (standard process)
  * allows to reload the app without going through script editor (using QRS API - also works when app is already published)
- 
+
+<a href="https://www.youtube.com/watch?v=aodSwcmGC_k"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/200px-YouTube_Logo_2017.svg.png" width="100"/> &nbsp;Explanation see my video</a>
+
 ## Virtual Proxy Setup
 
 Since both buttons interact with Qlik's QRS API, it is necessary to setup a virtual proxy first, so that the extension can 
