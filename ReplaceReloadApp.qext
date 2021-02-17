@@ -1,4 +1,16 @@
 {
-	"name": "ReplaceReloadApp",
-	"type": "visualization"
+    "name": "ReplaceReloadApp",
+    "type": "visualization",
+    "description": "Action buttons to reload this app via QRS and/or to publish/replace an app",
+    "icon": "list",
+    "version": "1.1.0",
+    "author": "Christof Schwarz",
+    "homepage": "www.databridge.ch",
+    "keywords": "qlik-sense, visualization",
+    "license": "MIT",
+    "repository": "https://github.com/ChristofSchwarz/qs_ext_reloadreplace",
+    "preview": "pics/databridgelogo.png",
+    "dependencies": {
+        "qlik-sense": ">=3.0.x"
+    }
 }

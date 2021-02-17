@@ -19,3 +19,27 @@
 .qv-object-ReplaceReloadApp button {
 	width: 100%;
 }
+
+.qv-object-ReplaceReloadApp-welcome {
+	/*text-align: center;*/
+    font-size: 6.5pt;
+    color: #aaa;
+	/*margin-bottom: 2px;*/
+	position: absolute; 
+    bottom: 0px; 
+	right: 0px;
+}
+
+.qv-object-ReplaceReloadApp-ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+div[tid=aboutSection] div[tid=dbLogo] {
+  background: url(../extensions/ReplaceReloadApp/databridgelogo.png) no-repeat;
+  background-size: 240px 122px;
+  height: 122px;
+  margin-left: 4px;
+}
